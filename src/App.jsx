@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { EmployeeProvider } from './context/EmployeeContext'; 
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import EmployeeList from './pages/EmployeeList';
 import EmployeeDetail from './pages/EmployeeDetail';
 import Payroll from './pages/Payroll';
 import Settings from './pages/Settings';
@@ -12,6 +11,7 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import './App.css';
+import EmployeeList from './pages/Employeelist';
 
 function App() {
   return (
