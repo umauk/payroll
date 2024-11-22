@@ -11,7 +11,8 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import './App.css';
-import EmployeeList from './pages/Employeelist';
+import EmployeeList from './pages/NempList';
+
 
 function App() {
   return (
