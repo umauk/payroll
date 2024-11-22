@@ -1,0 +1,54 @@
+
+.dashboard-container {
+  padding: 20px;
+  background-color: #f4f7fc;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-info h4 {
+  font-size: 18px;
+  color: #333;
+  font-weight: normal;
+}
+
+.dashboard-info div {
+  text-align: center;
+}
+
+.dashboard-info .total {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.dashboard-info .payroll {
+  background-color: #2196f3;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.dashboard-info h4 span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}

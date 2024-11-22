@@ -1,0 +1,130 @@
+
+.category-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .category-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .category-form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 150px;
+  }
+  
+  .category-form button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .category-form button:nth-child(3) {
+    background-color: #6c757d;
+  }
+  
+  .category-form button:nth-child(3):hover {
+    background-color: #5a6268;
+  }
+  
+  /* Table styling */
+  .category-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .category-table th,
+  .category-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .category-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .category-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .category-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .category-table button {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .category-table button:first-child {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .category-table button:first-child:hover {
+    background-color: #218838;
+  }
+  
+  .category-table button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .category-table button:last-child:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .category-form {
+      flex-direction: column;
+    }
+  
+    .category-form input {
+      width: 100%;
+    }
+  
+    .category-form button {
+      width: 100%;
+    }
+  
+    .category-table th,
+    .category-table td {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
