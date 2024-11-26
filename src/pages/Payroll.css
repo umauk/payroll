@@ -1,0 +1,131 @@
+/* Adding Fade In Animation for container */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Slide-In Animation for Card */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    transform: translateX(-100%);
+    animation: slideIn 0.5s forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Hover Animation for Buttons */
+  .button,
+  .downloadButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover,
+  .downloadButton:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Animation for List Items */
+  .list li {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .list li:hover {
+    transform: translateX(5px);
+    color: #2196f3;
+  }
+  
+  /* Styling other elements */
+  .heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .subHeading {
+    font-size: 18px;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .noImageText {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .section {
+    flex: 1;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #555;
+  }
+  
